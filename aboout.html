@@ -1,59 +1,71 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- 網站標題 -->
-    <title>NING的網站</title>
+    <title>歡迎來到NING的網站</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>
-        盧冠寧的自我介紹
-    </h1>
+    <div id="app">
+        <header class="profile-header">
+            <h1>歡迎來到NING的網站</h1>
+            <h2>我的名字是盧冠寧</h2>
+            <h3>以下是我的個人檔案</h3>
+            <p>我有一個Youtube 頻道</p>
+        </header>
 
-    <p>
-        大家好我是資管3C的盧冠寧 學號是411630097
-    </p>
-
-    <SPan>
+        <img src="頻道.png" width="50%">
         
-        我平常喜歡拍影片、拍照
-    </SPan>
 
-    <a href="https://www.tku.edu.tw/">
-        這是我的大學TKU
-    </a>
+        <section class="education-qualifications card">
+            <h4>學歷</h4>
+            <ul>
+                <li>基隆市私立二信高級中學</li>
+                <li>新北市立雙溪高中</li>
+                <li>淡江大學資訊管理學系</li>
+            </ul>
+        </section>
 
-    <img src="頻道.png" alt="我的頻道">
-    <p>我有一個自己記錄生活的頻道</p>
-    <ul>
-        <li>對自己的期許
+        <section class="experience-section card">
+            <h4>人生中特別的經驗</h4>
+            <ul>
+                <li>擔任高中畢業歌MV導演</li>
+                <li>在高三時拍[台灣偏鄉高中生一日VLOG] 上了台灣達人秀</li>
+                <li>考到駕照後開車環島</li>
+                <li>戴安全帽被蜈蚣咬</li>
+                <li>騎車時被毒蟲撞導致眼睛細菌感染</li>
+                
+            </ul>
+        </section>
 
-        </li> 
+        <section class="interest card">
+            <h5>影音連結</h5>
+            <table>
+                <tr>
+                    <th>APP</th>
+                    <th>連結</th>
+                </tr>
+                <tr>
+                    <td>Youtube頻道</td>
+                    <td><a href="https://www.youtube.com/@SharonLu2003">盧冠寧</a></td>
+                </tr>
+                <tr>
+                    <td>Instagram</td>
+                    <td><a href="https://www.instagram.com/?hl=zh-tw">mooiiia_</a></td>
+                </tr>
+            </table>
+        </section>
 
-    </ul>
-    <ol>
-        <li>各方面一切順利</li>
-        <li>精修自己的興趣</li>
-    </ol>
-
-    <form action="/submit" method="post">
-        <label for="name"></label>
-        <input type="text" id="name" name="name">
-        <input type="submit" value="提交">
-    </form>
-
-    <table>
-    <tr>
-        <th>綽號</th>
-        <th>年齡</th>
-    </tr>
-    <tr>
-        <td>寧</td>
-        <td>20</td>
-
-    </tr>
-    </table>
-
+        <section class="comments-section card">
+            <h4>留言</h4>
+            <form action="/submit" method="post">
+                <input type="text" id="comment" name="comment" placeholder="想說甚麼..">
+            </form>
+        </section>
+    </div>
 </body>
+
 </html>
