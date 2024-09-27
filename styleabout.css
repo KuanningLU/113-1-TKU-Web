@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #b5b3b2, #ffffff);
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+#app {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #575a5c;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #977092;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+h3 {
+    color: #4a5858;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 1rem;
+    color: #586567;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 1px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #f7f9f9;
+    list-style-type: none;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: #2c3e50;
+}
+
+
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+table th {
+    background-color: #ab7e72;
+    color: white;
+}
+
+table td a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cert-item {
+    margin-bottom: 20px;
+    text-align: center;
+}
