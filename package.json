@@ -1,0 +1,11 @@
+{
+    "name": "variables.ts",
+    "version": "1.0.0",
+    "scripts": {
+      "dev": "tsc --watch"
+    },
+    "devDependencies": {
+      "typescript": "^4.x.x" 
+    }
+  }
+  
