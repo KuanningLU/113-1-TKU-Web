@@ -1,0 +1,10 @@
+"use strict";
+const age = 25;
+let userName = "Alice";
+console.log("Original userName:", userName);
+userName = "Bob";
+console.log("Updated userName:", userName);
+let score;
+score = 100;
+console.log("Score:", score);
+let isActive = true;

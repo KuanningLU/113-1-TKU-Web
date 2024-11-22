@@ -1,11 +1,12 @@
+"use strict";
 function printMultiplicationTable() {
     console.log("九九乘法表\n");
-    for (var i = 1; i <= 9; i++) {
-        var row = "";
-        for (var j = 1; j <= 9; j++) {
-            var result = i * j;
-            var formattedResult = result < 10 ? $ : , result = (void 0).result;
-            row += "".concat(i, " x ").concat(j, " = ").concat(formattedResult, "    ");
+    for (let i = 1; i <= 9; i++) {
+        let row = "";
+        for (let j = 1; j <= 9; j++) {
+            const result = i * j;
+            const formattedResult = result < 10 ? $ : , { result };
+            row += `${i} x ${j} = ${formattedResult}    `;
             if (j % 3 === 0) {
                 console.log(row);
                 row = "";
@@ -15,8 +16,8 @@ function printMultiplicationTable() {
             console.log(row);
         }
     }
-    var separator = "";
-    for (var i = 0; i < 50; i++) {
+    let separator = "";
+    for (let i = 0; i < 50; i++) {
         separator += "-";
     }
     console.log(separator);

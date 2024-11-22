@@ -1,9 +1,10 @@
-var age = 25;
-var userName = "Alice";
+"use strict";
+const age = 25;
+let userName = "Alice";
 console.log("Original userName:", userName);
 userName = "sharon";
 console.log("Updated userName:", userName);
-var score;
+let score;
 score = 100;
 console.log("Score:", score);
-var isActive = true;
+let isActive = true;
